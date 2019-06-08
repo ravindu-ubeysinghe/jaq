@@ -28,7 +28,7 @@ $open_quote = ($testimonial_style == 'basic') ? '&#8220;' : null;
 $close_quote = ($testimonial_style == 'basic') ? '&#8221;' : null; 
 
 if($testimonial_style != 'basic') {
-	$open_quote = '<span class="open-quote">&ldquo;</span>'; 
+	$open_quote = '<span class="open-quote">&ldquo;</span>';
 }
 
 

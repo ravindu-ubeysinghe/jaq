@@ -303,7 +303,7 @@ function nectar_main_styles() {
 		 wp_register_style('linea', $nectar_get_template_directory_uri . '/css/fonts/svg/font/arrows_styles.css');
 		 wp_register_style('fullpage', $nectar_get_template_directory_uri . '/css/fullpage.css', '', '8.5.4');
 		 wp_register_style('nectarslider', $nectar_get_template_directory_uri . '/css/nectar-slider.css', '', '8.5.0');
-		 wp_register_style("main-styles", get_stylesheet_directory_uri() . "/style.css", '', '8.5.5');
+		 wp_register_style("main-styles", get_stylesheet_directory_uri() . "/style.css", '', filemtime(get_stylesheet_directory()."/style.css") );
 		 wp_register_style("nectar-portfolio", $nectar_get_template_directory_uri . "/css/portfolio.css", '', '8.5.5');
 		 wp_register_style("magnific", $nectar_get_template_directory_uri . "/css/magnific.css", '', '6.3');
 		 wp_register_style("fancyBox", $nectar_get_template_directory_uri . "/css/jquery.fancybox.css", '', '9.0');

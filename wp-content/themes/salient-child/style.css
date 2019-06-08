@@ -1,0 +1,388 @@
+/*
+Theme Name: JAQ
+Theme URI: http://webbos.com.au
+Description: This is a theme built dedicated for Jayalath Quantity Surveying
+Author: Ravindu Ubeysinghe (Webbos)
+Author URI: http://webbos.com.au
+Template: salient
+Version: 1.0
+*/
+
+
+/* Revision 3 - based on Ruwandhi's comments - 23/05/2019 */
+
+body[data-form-style="minimal"] #header-outer[data-has-menu="true"] header#top ul.sf-menu li a:after {
+    border-color: #680000 !important;
+}
+
+body[data-form-style="minimal"] #header-outer[data-has-menu="true"] header#top ul.sf-menu li.button_solid_color a:before {
+    background-color: #680000 !important;
+}
+
+body[data-form-style="minimal"] #header-outer[data-has-menu="true"] header#top ul.sf-menu li#social-in-menu i:after {
+    color: #680000 !important;
+}
+
+#ajax-content-wrap #slide-out-widget-area {
+    background-color: #680000 !important
+}
+
+#ajax-content-wrap #slide-out-widget-area .inner li.menu-item a {
+    font-size: 20px !important;
+}
+
+body[data-form-style="minimal"] .portfolio-filters-inline .container ul li a.active {
+    color: #680000 !important;
+}
+
+
+/* Header  */
+
+@media(max-width: 1024px) and (min-width: 769px) {
+    header .span_3 {
+        width: 23.5% !important;
+        margin-right: 0px !important;
+    }
+    header .span_3 img {
+        width: 100% !important;
+        height: auto !important;
+        padding-top: 10px !important;
+    }
+    header .span_9 {
+        width: 73% !important;
+    }
+    header#top nav>ul>li>a {
+        font-size: 11px !important;
+    }
+}
+
+@font-face {
+    font-family: "lucida-sans";
+    src: url("fonts/lsans.ttf");
+    src: url("fonts/lsans.woff") format("woff"), url("fonts/lsans.woff2") format("woff2");
+}
+
+header#top nav>ul>li>a {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+@media (max-width:600px) {
+    .page-id-6017 .tabbed[data-style*="material"] ul.wpb_tabs_nav li {
+        font-size: 10px;
+    }
+}
+
+#slide-out-widget-area .inner .off-canvas-menu-container li a {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.home blockquote {
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.home .nectar_single_testimonial[data-style="small_modern"] p span {
+    font-size: 55px !important;
+    line-height: 65px !important;
+}
+
+.home .recent-work-carousel .carousel-heading {
+    display: none;
+}
+
+.home .owl-carousel .owl-item img {
+    width: 200px;
+    height: 65px;
+}
+
+@media(max-width: 1024px) {
+    .home .owl-carousel .owl-item img {
+        height: 55px;
+    }
+}
+
+@media(max-width: 7684px) {
+    .home .owl-carousel .owl-item img {
+        height: 40px;
+    }
+}
+
+.home .open-quote {
+    content: open-quote;
+    quotes: "\201C""\201D";
+}
+
+
+/* New styles 31/03/2019 */
+
+.wb-home-services,
+.wb-home-recent-projects,
+.wb-home-testimonials,
+.wb-home-client-logos {
+    margin-bottom: 0px;
+    margin-top: 75px;
+}
+
+.wb-home-testimonials blockquote p {
+    min-height: 290px;
+}
+
+.wb-home-services .vc_col-sm-3 .vc_column-inner .wpb_wrapper p {
+    min-height: 160px;
+}
+
+.home .row .col.section-title {
+    padding: 0px 0px 15px 0px;
+}
+
+
+/* Footer */
+
+#footer-outer #footer-widgets .col:first-child p {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+#footer-outer #footer-widgets .col:nth-child(3) li br {
+    display: none;
+}
+
+.ascend #footer-outer .widget.widget_nav_menu li.menu-item {
+    padding: 0px 0px !important;
+}
+
+#footer-outer .wb-footer-about p:nth-child(2),
+#footer-outer .wb-footer-about p:nth-child(3) {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+}
+
+#footer-outer .wb-footer-contact .wb-footer-contact-title {
+    text-transform: uppercase;
+    padding: 5px 0px !important;
+    line-height: 14px !important;
+    background: #252525;
+    font-size: 12px;
+    /* letter-spacing: 2px; */
+    width: 240px;
+    text-align: left;
+    margin-bottom: 5px;
+    max-height: 28px;
+}
+
+#footer-outer #googlemapswidget-2 img {
+    content: url('/wp-content/uploads/2019/05/jaqmap.png');
+}
+
+#footer-outer .row {
+    padding: 30px 0px !important;
+}
+
+#footer-outer #footer-widgets .col ul li a {
+    word-wrap: break-word;
+}
+
+
+/* #footer-outer .wb-footer-contact .wb-footer-contact-title:after {
+    content: "";
+    border-bottom: 1px solid #fff;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+} */
+
+#footer-outer .wb-footer-contact .wb-footer-contact-title [class*="fa-"] {
+    font-size: 16px;
+}
+
+
+/* Previous Projects */
+
+.wb-projects-portfolio .portfolio-items .work-meta {
+    min-height: 100px;
+}
+
+
+/* don't show view large on projects */
+
+.wb-projects-portfolio .work-info a:nth-child(1),
+.work-info a:nth-child(1) {
+    display: none !important;
+}
+
+
+/* About Projects */
+
+.wb-about-projects .vert-center a:first-child {
+    display: none;
+}
+
+.wb-about-projects .portfolio-items .work-meta {
+    width: 100%;
+}
+
+.wb-about-projects .portfolio-items .work-meta h4 {
+    font-size: 15px;
+}
+
+@media(min-width: 1025px) {
+    .wb-about-text .wpb_text_column,
+    .wb-contact-form .vc_column-inner {
+        margin-right: 70px;
+    }
+}
+
+
+/* Tax deprecation form/Ninja form styling */
+
+.ninja-forms-req-symbol {
+    color: #5358B5 !important;
+}
+
+@media(min-width: 1025px) {
+    .wb-form-right,
+    .wb-form-left {
+        width: 40vw;
+    }
+    .wb-form-right {
+        float: right;
+    }
+    .wb-form-left {
+        float: left;
+        margin-right: 2vw;
+    }
+}
+
+@media(min-width: 1600px) {
+    .wb-form-right,
+    .wb-form-left {
+        width: 30vw;
+    }
+}
+
+.wb-form-full {
+    width: 100vw;
+}
+
+nf-field {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+
+nf-field input,
+nf-field textarea {
+    border: 1px solid #5777 !important;
+}
+
+body[data-form-style="minimal"] nf-field input[type="text"],
+body[data-form-style="minimal"] nf-field input[type="number"],
+body[data-form-style="minimal"] nf-field input[type="tel"] {
+    padding: 10px !important;
+    min-height: 44px !important;
+}
+
+
+/* additional information */
+
+.nf-form-content nf-field:nth-child(43),
+.nf-form-content nf-field:nth-child(43) .wb-form-full {
+    width: 100% !important;
+}
+
+.nf-form-content nf-field:nth-child(43) textarea {
+    padding: 10px !important;
+}
+
+
+/* non-fixed furniture */
+
+.nf-form-content nf-field:nth-child(31),
+.nf-form-content nf-field:nth-child(31) .wb-form-full {
+    width: 100% !important;
+}
+
+#nf-field-36-wrap li {
+    vertical-align: top;
+}
+
+#nf-field-36-wrap li:nth-child(odd) {
+    width: 49%;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+#nf-field-36-wrap li:nth-child(even) {
+    width: 45%;
+    display: inline-block;
+}
+
+.nf-form-content {
+    margin-top: 20px;
+}
+
+@media(max-width: 1024px) {
+    nf-field {
+        width: 100%;
+    }
+}
+
+
+/* Customer Review List Shortcode */
+
+.wb-single-review {
+    /* width: 32%;
+    margin-right: 2%;
+    display: inline-block; */
+    vertical-align: top;
+}
+
+.wb-single-review:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.wb-single-review .content {
+    background: #f9f9f9;
+    border-left: 10px solid #4247ae;
+    margin: 1.5em 10px;
+    padding: 20px 10px;
+    quotes: "\201C""\201D";
+}
+
+.wb-single-review .content:before {
+    color: #676767;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.wb-single-review .content p {
+    display: inline;
+}
+
+
+/* Create a Customer Review Form  */
+
+.wb-customer-review-form nf-field {
+    display: block;
+}
+
+body[data-form-style="minimal"] .wb-customer-review-form textarea {
+    padding: 10px !important;
+    min-height: 100px !important;
+    box-sizing: border-box !important;
+}
+
+@media(min-width: 1025px) {
+    .wb-customer-review-form nf-field {
+        width: 50%;
+    }
+}
+
+.page-id-6198 h1 {
+    font-size: 35px !important;
+}

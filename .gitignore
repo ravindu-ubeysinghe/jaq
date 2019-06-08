@@ -1,0 +1,9 @@
+#exclude uploads folder
+wp-content/uploads/
+
+#exclude wp-config.php for better security
+wp-config.php
+
+#any SQL files
+*.sql
+jaq.zip
